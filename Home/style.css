@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list li{
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+.list li a:hover{
+    color: rgb(155, 168, 179);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+}
+.logo1{
+    width: 6vw;
+    height: 6vw;
+}
+.bdn input{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 1vh;
+}
+.find{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 1vh;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.find:hover{
+    background-color: blue;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    color: aliceblue;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
+.paragraph{
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+.paragraph:hover{
+    color: orangered;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+i{
+    font-size: 3vw;
+    padding: 1vh;
+    cursor: pointer;
+    color: #fff;
+}
+.icon-list{
+    margin-right: 1vw;
+}
+i:hover{
+    color: red;
+    transform: rotate(360deg);
+    transition: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+.swiper{
+    width: 100vw;
+    height: 90%;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+    background-color: gold;
+}
+.image-card{
+    width: 35vw;
+    height: 30vw;
+}
+.paragraph2{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6vw;
+    color: aliceblue;
+}
+.paragraph2:hover{
+    color: yellow;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.article{
+    background-color: rgb(43, 43, 163);
+}
+.article1{
+    background-color: orangered;
+}
+.article2{
+    background-color: goldenrod;
+}
+.arm:hover{
+    color: blueviolet;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.article3{
+    background-color: purple;
+}
+.arm2:hover{
+    color: aqua;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.ancor{
+    text-align: center;
+}
+.ancor2{
+    align-self: center;
+    font-size: 6vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: red;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+h6{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+h6:hover{
+    color: yellow;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.fa-solid{
+    color: #fff;
+    font-size: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fa-solid:hover{
+    color: yellow;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+@media screen and (max-width:679px) {
+    .bdn input{
+        border: 1px solid black;
+        border-radius: 2px;
+    }
+    .find{
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 1vw;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+}
+@media screen and (max-width:4110px) {
+    .find{
+        margin-bottom: 1vw;
+    }
+}
+@media screen and (max-width:257px) {
+    .find{
+        margin-top: 2vw;
+    }
+}
+@media screen and (max-width:4121px) {
+    .bdn{
+        margin-top: 1vw;
+    }
+}

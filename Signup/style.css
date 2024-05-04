@@ -1,0 +1,633 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list li{
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+.list li a:hover{
+    color: rgb(155, 168, 179);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+}
+.logo1{
+    width: 6vw;
+    height: 6vw;
+}
+.bdn input{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 1vh;
+}
+.find{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid black;
+    border-radius: 1vh;
+    margin-bottom: 1vh;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.find:hover{
+    background-color: blue;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    color: aliceblue;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+}
+.paragraph{
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+.paragraph:hover{
+    color: orangered;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+i{
+    font-size: 3vw;
+    padding: 1vh;
+    cursor: pointer;
+    color: #fff;
+}
+.icon-list{
+    margin-right: 1vw;
+}
+i:hover{
+    color: red;
+    transform: rotate(360deg);
+    transition: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+.swiper{
+    width: 100vw;
+    height: 90%;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+    background-color: gold;
+}
+.image-card{
+    width: 35vw;
+    height: 30vw;
+}
+.paragraph2{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 6vw;
+    color: aliceblue;
+}
+.paragraph2:hover{
+    color: yellow;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.article{
+    background-color: rgb(43, 43, 163);
+}
+.article1{
+    background-color: orangered;
+}
+.article2{
+    background-color: goldenrod;
+}
+.arm:hover{
+    color: blueviolet;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.article3{
+    background-color: purple;
+}
+.arm2:hover{
+    color: aqua;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.ancor{
+    text-align: center;
+}
+.ancor2{
+    align-self: center;
+    font-size: 6vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: red;
+}
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+h6{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+h6:hover{
+    color: yellow;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.fa-solid{
+    color: #fff;
+    font-size: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fa-solid:hover{
+    color: yellow;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+@media screen and (max-width:679px) {
+    .bdn input{
+        border: 1px solid black;
+        border-radius: 2px;
+    }
+    .find{
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-top: 1vw;
+        cursor: pointer;
+        vertical-align: middle;
+    }
+}
+@media screen and (max-width:4110px) {
+    .find{
+        margin-bottom: 1vw;
+    }
+}
+@media screen and (max-width:257px) {
+    .find{
+        margin-top: 2vw;
+    }
+}
+@media screen and (max-width:4121px) {
+    .bdn{
+        margin-top: 1vw;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav1{
+    width: 100%;
+    background-color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo img{
+    width: 3vw;
+    height: 3vw;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a:hover{
+    color: rgb(227, 197, 197);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.bdn{
+    display: flex;
+    align-items: center;
+}
+.bdn input{
+    font-size: 2vw;
+    border: 3px solid black;
+    border-radius: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    font-size: 2vw;
+    border: 3px solid black;
+    border-radius: 1vw;
+    cursor: pointer;
+    vertical-align: middle;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn:hover{
+    background-color: blue;
+    color: #fff;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.footer1{
+    background-color: orangered;
+    color: #fff;
+    font-size: 3vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.nav2{
+    box-shadow: 6px 5px 15px grey;
+    width: 100%;
+}
+.nav2 h3{
+    color: green;
+    background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2vw;
+}
+.icon{
+    margin-right: 1vw;
+}
+.icon i{
+    color: white;
+    background-color: black;
+    font-size: 2vw;
+    cursor: pointer;
+    margin-top: 2vw;
+}
+.icon i:hover{
+    color: yellow;
+    transform: rotate(360deg);
+    transition: all;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.container{
+    display: flex;
+    object-fit: contain;
+}
+.swiper{
+    width: 100%;
+    height: 35vw;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    z-index: unset;
+    cursor: pointer;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color: white;
+    background-color: orange;
+}
+.swiper .swiper-pagination-bullet-active{
+    background-color: #fff;
+}
+.click{
+    width: 100%;
+}
+.click ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 129, 87);
+    margin: 1vw 0px;
+    flex-wrap: wrap;
+}
+.click ul:hover{
+    background-color: rgb(229, 114, 73);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.click ul li{
+    list-style: none;
+}
+.click ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1vh;
+    font-size: 3vh;
+}
+.click ul li a:hover{
+    color: white;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 6px 5px 14px grey;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.list img{
+    width: 5vw;
+    height: 5vw;
+}
+.paragraph2{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.paragraph2 p:hover{
+    color: orangered;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.list2 img{
+    width: 15vw;
+    height: 15vw;
+}
+.list2:hover{
+    background-color: rgb(215, 225, 234);
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.price{
+    color: orangered;
+}
+.card3{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.container3{
+    width: 100%;
+}
+.lines p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container3 h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 6px 6px 12px grey;
+}
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 6px 6px 12px grey;
+    color: black;
+    padding: 2vw 4vw;
+}
+.write{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(194, 172, 172);
+    width: 100%;
+    height: 100%;
+}
+.write2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.collection{
+    margin-top: 2vw;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.load1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.load{
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: orangered;
+    border: 2px solid orangered;
+    cursor: pointer;
+    padding: 2vw;
+}
+.load:hover{
+    color: rgb(171, 59, 18);
+    border: 2px solid  rgb(171, 59, 18);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.collection2{
+    box-shadow: 5px 6px 14px grey;
+}
+.right{
+    font-size: 1vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-left: 1px solid white;
+   padding: 0px 4vw;
+}
+.footer1{
+    width: 100%;
+}
+.login{
+    margin-top: 3vw;
+}
+.login4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vw;
+    background-color: rgb(198, 208, 217);
+}
+.login h1{
+    text-align: center;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 6px 14px grey;
+}
+.email1{
+    margin-bottom: 2vw;
+}
+.input2 input{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 30vw;
+}
+.input2 h3{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button button{
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 25vw;
+    cursor: pointer;
+}
+.button h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.loginbdn{
+    background-color: orangered;
+    color: aliceblue;
+}
+.loginbdn:hover{
+    background-color: rgb(214, 88, 41);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.loginbdn2{
+    background-color: blue;
+    color: aliceblue;
+}
+.loginbdn2:hover{
+    background-color: rgb(38, 38, 176);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.loginbdn3{
+    margin-top: 1vw;
+    background-color: red;
+    color: aliceblue;
+}
+.loginbdn3:hover{
+    background-color: rgb(203, 12, 12);
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+.section1{
+font-size: 2vw;
+cursor: pointer;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+}
+@media screen and (max-width:431px) {
+    .list{
+        /* flex-direction: column; */
+    }
+}
+@media screen and (max-width:386px) {
+    .nav2 h3{
+        font-size: 2vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}
+@media screen and (max-width:511px) {
+    .button h4{
+        font-size: 1vw;
+    }
+}
+@media screen and (max-width:520px) {
+    .bdn input{
+        border: 1px solid black;
+    }
+    .btn{
+        border: 1px solid black;
+    }
+}
+@media screen and (max-width:417px) {
+    .bdn{
+        position: relative;
+        top: 1vw
+    }
+}
+@media screen and (max-width:208px) {
+    .bdn{
+        position: relative;
+        top: 2vw
+    }
+}
+@media screen and (max-width:108px) {
+    .bdn{
+        position: relative;
+        top: 5vw
+    }
+}
+@media screen and (max-width:1084px) {
+    .login4{
+        width: 100%;
+        height: 100%;
+    }
+     body{
+        background-color: rgb(198, 208, 217);
+     }
+}
+@media screen and (max-width:240px) {
+    .write2{
+        font-size: 1vh;
+    }
+}
+@media screen and (max-width:4110px) {
+    .find{
+        margin-top: 1vw;
+    }
+}
+@media screen and (max-width:4050px) {
+    .bdn{
+        margin-bottom: 1vw;
+    }
+}
+.fa-solid{
+    color: black;
+}
+.fa-solid:hover{
+    color: red;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
